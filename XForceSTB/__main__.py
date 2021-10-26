@@ -98,7 +98,6 @@ buttons = [
     [      
           InlineKeyboardButton(
             text="🗣️ Support", url="https://t.me//Naruto_Fans_Club"),
-          InlineKeyboardButton(
     
    
     ],
