@@ -92,7 +92,6 @@ buttons = [
     [      
        InlineKeyboardButton(
             text="🌐 Demon", url="https://t.me/Naruto_Fans_Club"),        
-          InlineKeyboardButton(
    
     
    ],
@@ -101,13 +100,12 @@ buttons = [
             text="🗣️ Support", url="https://t.me//Naruto_Fans_Club"),
           InlineKeyboardButton(
     
-    
-         ),
+   
     ],
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm Son Naruto!
+Hey there, I'm Naruto!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
