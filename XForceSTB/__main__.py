@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from XForceSTB import (
+from Naruto import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -77,7 +77,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey There, I'm [Goku](https://telegra.ph/file/0e7ab643f949630fbb63c.jpg)
+ Hey There, I'm [Naruto](https://telegra.ph/file/0e7ab643f949630fbb63c.jpg)
 I Am An Anime Themed Group Management Bot.
 Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 """
@@ -85,29 +85,29 @@ Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Me", url="t.me/GokuxRobot?startgroup=true"),    
+            text="➕ Add Me", url="t.me/NarutoProbot?startgroup=true"),    
         InlineKeyboardButton(
               text="⚙️ Help", callback_data="help_back"),   
    ],
     [      
        InlineKeyboardButton(
-            text="🌐 X-Force", url="https://t.me/XForceSquad"),        
+            text="🌐 Demon", url="https://t.me/Naruto_Fans_Club"),        
           InlineKeyboardButton(
-            text="📋 Updates", url="https://t.me/XForceBots"),
+   
     
    ],
     [      
           InlineKeyboardButton(
-            text="🗣️ Support", url="https://t.me/XForceSupport"),
+            text="🗣️ Support", url="https://t.me//Naruto_Fans_Club"),
           InlineKeyboardButton(
-            text="📁 Source", url="https://github.com/STBxD/GokuXForceRobot",
+    
     
          ),
     ],
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm Son Goku!
+Hey there, I'm Son Naruto!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
