@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=" https://telegra.ph/file/8f7e4cbe2ee77b68b05b0.jpg">
+  <img src="https://telegra.ph/file/886bfb65dd6b13bdaba21.jpg">
 </p>
 
 # Naruto
