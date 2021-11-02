@@ -77,7 +77,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey There, I'm [Naruto](https://telegra.ph/file/c21f34ad11bf0c284cee2.jpg)
+ Hey There, I'm [Hinata](https://telegra.ph/file/6a1e27319f08dce79c1f9.jpg)
 I Am An Anime Themed Group Management Bot.
 Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 """
@@ -85,7 +85,7 @@ Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Me", url="t.me/GokuxRobot?startgroup=true"),    
+            text="➕ Add Me", url="t.me/HinataHyuga_Robot?startgroup=true"),    
         InlineKeyboardButton(
               text="⚙️ Help", callback_data="help_back"),   
    ],
@@ -113,7 +113,7 @@ Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
-If you want to report bugs or have any questions on how to use me then feel free to reach out: @XForceSupport.
+If you want to report bugs or have any questions on how to use me then feel free to reach out: @hinatasupport.
 All commands can be used with the following: / ! ?
 List of all the Modules:
 """.format(
@@ -665,7 +665,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/b9410d4211892cacc3302.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/6a1e27319f08dce79c1f9.jpg)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
