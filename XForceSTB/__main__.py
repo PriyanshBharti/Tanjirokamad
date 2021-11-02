@@ -91,14 +91,14 @@ buttons = [
    ],
     [      
        InlineKeyboardButton(
-            text="📋 Updates", url="https://t.me/LynnceptUpdates"),        
+            text="📋 Updates", url="https://t.me/HinataUpdates"),        
           InlineKeyboardButton(
-            text=" Logs", url="https://t.me/lynnceptlogs"),
+            text=" Logs", url="https://t.me/HinataGloballogs"),
     
    ],
     [      
           InlineKeyboardButton(
-            text="🗣️ Support", url="https://t.me/LynnceptSupport"),
+            text="🗣️ Support", url="https://t.me/HinataSupport"),
           InlineKeyboardButton(
             text="Community", url="https://t.me/ghostgangco",
     
