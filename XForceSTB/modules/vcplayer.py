@@ -1,17 +1,24 @@
 
 __mod_name__ = "VC PLAYER"
 __help__ = """
-          》GOKU VC PLAYER《
+          》HINATA VC PLAYER《
             
 I can now also play music in your group's voice chat
  
-Assistant username:- @GokuMusicHelper
+Assistant username:- @HinataAssistant
  
  Setting up 
 1) Make bot admin
 2) Start a voice chat
 3) Try `/play [song name]` for the first time by an admin
-) If userbot joined enjoy music, If not add @GokuMusicHelper to your group manually and retry
+) If userbot joined enjoy music, If not add @HinataAssistant
+
+
+
+
+
+
+to your group manually and retry
  Commands:
  
 • Song Playing 🎶
