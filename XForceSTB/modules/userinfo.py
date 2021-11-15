@@ -224,9 +224,9 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code>Connecting to X-Force</code>", parse_mode=ParseMode.HTML)
+        "<code>Connecting to Shinobi>", parse_mode=ParseMode.HTML)
 
-    text = (f"╒═══「<b> X-Force DB Userinfo:</b> 」\n"
+    text = (f"╒═══「<b> Shinobi Userinfo:</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
@@ -271,26 +271,26 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThis person is a 'Alpha God'."
+        text += "\n\nThis person is a 'Naruto'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThe Power level of this person is 'Fury'."
+        text += "\n\nThe Power level of this person is 'Hokage'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Power level of this person is 'Hydra'."
+        text += "\n\nThe Power level of this person is 'Jonin'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Power level of this person is 'Omega'."
+        text += "\n\nThe Power level of this person is 'Chunin'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Power level of this person is 'Agent'."
+        text += "\n\nThe Power level of this person is 'Genin'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Power level of this person is 'Deputy Agent'."
+        text += "\n\nThe Power level of this person is 'Academy Students'."
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/XForceBots/79">?</a>]'.format(
+        text += ' [<a href="https://t.me/HinataUpdates/3">?</a>]'.format(
             bot.username)
 
     try:
